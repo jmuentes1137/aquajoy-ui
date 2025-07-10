@@ -5,11 +5,12 @@
 **Teléfono: 0958946109**  
 **Ubicación: Calle Ocho, Manta**
 
+---
 
 
 ##  Estructura del Proyecto
 
-
+```
 aquajoy_sitio_final/
 │
 ├── css/
@@ -25,6 +26,7 @@ aquajoy_sitio_final/
 └── README.md
 ```
 
+---
 
 ##  Componentes UI Incluidos (10)
 
@@ -49,7 +51,7 @@ aquajoy_sitio_final/
 - Sombras suaves, bordes redondeados
 - Clases con convención BEM para escalabilidad
 
-
+---
 
 ##  Tecnologías Usadas
 
@@ -60,6 +62,7 @@ aquajoy_sitio_final/
 - Variables CSS personalizadas: `--color-principal`, etc.
 - Pseudo-elementos `::before`, `:hover`, etc.
 
+---
 
 ##  Cómo visualizar
 
@@ -70,3 +73,4 @@ aquajoy_sitio_final/
    - `3.jpg` (Clase niños)
    - `4.jpg` (Clase adultos)
 3. Abre `index.html` en tu navegador.
+
