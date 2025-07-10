@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Demo UI Aquajoy
+  </title>
+  <link href="css/estilos.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="container">
+   <h1>
+    🎨 Biblioteca de Componentes UI - Aquajoy
+   </h1>
+   <section>
+    <h2>
+     Botones
+    </h2>
+    <button class="btn btn--primary">
+     Primario
+    </button>
+    <button class="btn btn--secondary">
+     Secundario
+    </button>
+   </section>
+   <section>
+    <h2>
+     Tarjetas
+    </h2>
+    <div class="card">
+     <h3>
+      Título de la Tarjeta
+     </h3>
+     <p>
+      Contenido de ejemplo dentro de una tarjeta.
+     </p>
+    </div>
+   </section>
+   <section>
+    <h2>
+     Formularios
+    </h2>
+    <input class="input" placeholder="Nombre" type="text"/>
+    <input class="input" placeholder="Correo" type="email"/>
+    <button class="btn btn--primary">
+     Enviar
+    </button>
+   </section>
+   <section>
+    <h2>
+     Navbar
+    </h2>
+    <nav class="navbar">
+     <span>
+      Logo
+     </span>
+     <div>
+      <a class="btn btn--secondary" href="#">
+       Inicio
+      </a>
+      <a class="btn btn--secondary" href="#">
+       Servicios
+      </a>
+     </div>
+    </nav>
+   </section>
+   <section>
+    <h2>
+     Modal
+    </h2>
+    <button class="btn btn--primary" onclick="document.querySelector('.modal').style.display='flex'">
+     Abrir Modal
+    </button>
+    <div class="modal" onclick="this.style.display='none'">
+     <div class="modal__content" onclick="event.stopPropagation()">
+      <h3>
+       Modal
+      </h3>
+      <p>
+       Este es un modal de prueba.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section>
+    <h2>
+     Tooltips
+    </h2>
+    <button class="btn btn--primary" title="Este es un tooltip">
+     Pasa el mouse
+    </button>
+   </section>
+   <section>
+    <h2>
+     Alertas
+    </h2>
+    <div class="card" style="background-color: var(--success-color); color: white;">
+     Éxito: Operación completada.
+    </div>
+    <div class="card" style="background-color: var(--danger-color); color: white;">
+     Error: Algo salió mal.
+    </div>
+   </section>
+   <section>
+    <h2>
+     Tabs
+    </h2>
+    <div class="card">
+     <button class="btn btn--primary">
+      Tab 1
+     </button>
+     <button class="btn btn--secondary">
+      Tab 2
+     </button>
+    </div>
+   </section>
+  </div>
+  <section class="container">
+   <hr/>
+   <h2>
+    Componentes UI de la Biblioteca
+   </h2>
+   <div class="card">
+    <h3>
+     Botón Primario
+    </h3>
+    <button class="btn btn--primary">
+     Reservar
+    </button>
+   </div>
+   <div class="card">
+    <h3>
+     Formulario de Contacto
+    </h3>
+    <form>
+     <input class="input" placeholder="Nombre" type="text"/>
+     <input class="input" placeholder="Correo" type="email"/>
+     <button class="btn btn--primary">
+      Enviar
+     </button>
+    </form>
+   </div>
+   <div class="card">
+    <h3>
+     Alerta Informativa
+    </h3>
+    <div class="card" style="background-color: var(--primary-color); color: white;">
+     ¡Clase disponible!
+    </div>
+   </div>
+  </section>
+ </body>
+</html>
